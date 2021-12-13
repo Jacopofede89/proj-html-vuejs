@@ -2,6 +2,7 @@
   <div id="app">
     <Header/>
     <Main/>
+    <MyFeature/>
     
   </div>
 </template>
@@ -9,12 +10,14 @@
 <script>
 import Header from './components/Header.vue'
 import Main from './components/Main.vue'
+import MyFeature from './components/MyFeature.vue'
 
 export default {
   name: 'App',
   components: {
     Header,
-    Main
+    Main,
+    MyFeature
   },
   data(){
   return {
@@ -55,7 +58,6 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
 }
 *{
   margin:0;

@@ -27,23 +27,45 @@
             </div>
         </div>
   </div>
-  <div class="box">
-    <div class="io"></div>
-    <div id="mio"  class="io"></div>
-    <div class="io"></div>
-    <div class="io"></div>
-    <div id="mio" class="io"></div>
-  </div>
-  <!-- <div class="box">
-    <div class="io"></div>
-    <div id="mio" class="io"></div>
-  </div>
-  <div class="box">
-    <div class="io"></div>
-    <div id="mio" class="io"></div>
-  </div> -->
   
-  
+  <div class="box">
+    <div class="box_text">
+        <div class="box_text_pic">
+            <h1>Graphic Design</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit,Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+            <img src="@/assets/home-6-service-image-01.png">
+        </div>
+        <div class="box_text_pic">
+            <h1>Graphic Design</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit,Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+            <img src="@/assets/home-6-service-image-02.png">
+        </div>
+        <div class="box_text_pic">
+            <h1>Graphic Design</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit,Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+            <img src="@/assets/home-6-service-image-03.png">
+        </div>
+        <div class="box_text_pic">
+            <h1>Graphic Design</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit,Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+            <img src="@/assets/home-6-service-image-04.png">
+        </div>
+    </div>
+    <div class="box_text">
+        <div class="box_text_right">
+            <h5>TOGHETER WE CAN CREATE</h5>
+            <div class="color">SERVICES WE <span>CAN PROVIDE</span> FOR MY CLIENTS</div>
+            <ul>
+                <li><i class="fas fa-check"></i> io</li>
+                <li><i class="fas fa-check"></i> io</li>
+                <li><i class="fas fa-check"></i> io</li>
+                <li><i class="fas fa-check"></i> io</li>
+            </ul>
+            <button>Get started for free</button>
+        </div>
+    </div>
+    
+  </div>
 </section>
   
 </template>
@@ -59,7 +81,6 @@ export default {
 section{
   margin: 0 auto;  
   width:80%;
-  height: 700px;
   background-color: yellow;
 }.text{
     margin-top: 150px;
@@ -83,19 +104,30 @@ section{
     }
 }.box{
     display: flex;
+}.box_text{
+    display: flex;
     flex-wrap:wrap;
-}.io{
-    width:300px;
-    height: 350px;
+    margin: 0 auto;
+    width:45%;
+    height: 750px;
     border:2px solid black;
-    margin: 10px;
-}#mio{
-    margin-top:50px;
-}#tuo{
-    margin-top: 100px;
-    width:300px;
-    height: 350px;
-    border:2px solid black;
-    margin: 10px;
+}.box_text_pic{
+    margin: auto;
+    border:2px solid red;
+    width:45%;
+    // height: 50%;
+    text-align: initial;
+    img{
+        margin-top:20px;
+        width: 90%;
+    }
+}.box_text_right{
+    margin-top:200px;
+    text-align: initial;
+
+    ul {
+  list-style-type: none;
+  padding: 0;
+}
 }
 </style>
