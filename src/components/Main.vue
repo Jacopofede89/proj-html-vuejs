@@ -27,7 +27,7 @@
             </div>
         </div>
   </div>
-  
+
   <div class="box">
     <div class="box_text">
         <div class="box_text_pic">
@@ -71,8 +71,9 @@
 </template>
 
 <script>
+
 export default {
-  name: 'Main'
+  name: 'Main',
 }
 </script>
 

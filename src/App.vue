@@ -3,6 +3,9 @@
     <Header/>
     <Main/>
     <MyFeature/>
+    <MyPeople/>
+    <MyBlog/>
+    
     
   </div>
 </template>
@@ -11,13 +14,17 @@
 import Header from './components/Header.vue'
 import Main from './components/Main.vue'
 import MyFeature from './components/MyFeature.vue'
+import MyPeople from './components/MyPeople.vue'
+import MyBlog from './components/MyBlog.vue'
 
 export default {
   name: 'App',
   components: {
     Header,
     Main,
-    MyFeature
+    MyFeature,
+    MyPeople,
+    MyBlog,
   },
   data(){
   return {

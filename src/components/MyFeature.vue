@@ -88,7 +88,7 @@ section{
   margin: 0 auto;  
   width:80%;
   height: 600px;
-  background-color: red;
+  background-color:rgba(245,247,250,255);
 }.box{
     display: flex;
     flex-wrap:wrap;
@@ -111,5 +111,10 @@ section{
     border:2px solid blue;
 
 
+}button{
+    border:none;
+    background-color:rgba(32,173,150,255);
+    color: white;
+    font-weight: bold;
 }
 </style>
