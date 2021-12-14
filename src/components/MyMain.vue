@@ -5,8 +5,8 @@
         <p>along the way and develop at your own pace</p><br>
         <p>that's comfortable.</p>
         <div class="name">
-            <h6>FANNIE MORENO</h6>
-            <h6>/Founder & CEO</h6>
+            <p>FANNIE MORENO</p>
+            <p>/Founder & CEO</p>
         </div>
         <div class="session">
             <div class="session_number">
@@ -36,19 +36,19 @@
             <img src="@/assets/home-6-service-image-01.png">
         </div>
         <div class="box_text_pic">
-            <h1>Graphic Design</h1>
+            <h1>Business Administration</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit,Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
             <img src="@/assets/home-6-service-image-02.png">
         </div>
         <div class="box_text_pic">
-            <h1>Graphic Design</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit,Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
             <img src="@/assets/home-6-service-image-03.png">
+            <h1>Idea Discussion</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit,Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
         </div>
         <div class="box_text_pic">
-            <h1>Graphic Design</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit,Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
             <img src="@/assets/home-6-service-image-04.png">
+            <h1>Web Development</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit,Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
         </div>
     </div>
     <div class="box_text">
@@ -56,10 +56,10 @@
             <h5>TOGHETER WE CAN CREATE</h5>
             <div class="color">SERVICES WE <span>CAN PROVIDE</span> FOR MY CLIENTS</div>
             <ul>
-                <li><i class="fas fa-check"></i> io</li>
-                <li><i class="fas fa-check"></i> io</li>
-                <li><i class="fas fa-check"></i> io</li>
-                <li><i class="fas fa-check"></i> io</li>
+                <li><i class="fas fa-check"></i>Select & customize to your prefernces</li>
+                <li><i class="fas fa-check"></i>Change the tuttor and make arrangements</li>
+                <li><i class="fas fa-check"></i>Partecipate in events to join others</li>
+                <li><i class="fas fa-check"></i>Get the desired certificate delivered at house</li>
             </ul>
             <button>Get started for free</button>
         </div>
@@ -73,7 +73,7 @@
 <script>
 
 export default {
-  name: 'Main',
+  name: 'MyMain',
 }
 </script>
 
@@ -82,19 +82,19 @@ export default {
 section{
   margin: 0 auto;  
   width:80%;
-  background-color: yellow;
 }.text{
-    margin-top: 150px;
+    margin-top: 200px;
     font-size: 25px;
     line-height: 15px;
     font-weight:bold;
 }.name{
+    font-size:10px;
     margin-top: 20px;
-    line-height: 30px;
 }.session{
     display: flex;
     justify-content: center;
     justify-content: space-evenly;
+    margin-top:100px;
     color:rgba(32,173,150,255);
 }.session_number{
     line-height: 30px;
@@ -105,16 +105,17 @@ section{
     }
 }.box{
     display: flex;
+    margin-top:100px;
 }.box_text{
     display: flex;
     flex-wrap:wrap;
     margin: 0 auto;
     width:45%;
     height: 750px;
-    border:2px solid black;
+    // border:2px solid black;
 }.box_text_pic{
     margin: auto;
-    border:2px solid red;
+    // border:2px solid red;
     width:45%;
     // height: 50%;
     text-align: initial;
@@ -124,11 +125,29 @@ section{
     }
 }.box_text_right{
     margin-top:200px;
+    line-height:40px;
     text-align: initial;
-
-    ul {
+    h5{
+        color:grey;
+    }
+button{
+  color:white;
+  border:none;
+  background-color:rgba(32,173,150,255);
+  border-radius:3px;
+  padding:5px 20px;
+  margin-top:10px;
+}.color{
+    font-size: 30px;
+    span{
+       color:rgba(32,173,150,255); 
+    }
+}
+ul {
   list-style-type: none;
   padding: 0;
+}i{
+    color:rgba(32,173,150,255);
 }
 }
 </style>

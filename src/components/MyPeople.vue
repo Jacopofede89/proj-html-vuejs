@@ -8,9 +8,9 @@
                 <img src="@/assets/testimonial-avata-02.jpg">
             </div>
         <div class="text_">
-                <p>Let passion and determination be the guide</p>
-                <p>along the way and develop at your own pace</p>
-                <p>that's comfortable.</p>
+                <p>I am free to learn at my own pace, follow</p>
+                <p>my own schedule and choose the subject I</p>
+                <p>like. Great study portal for people like me.</p>
             <div class="name">
                 <h6>MINA HOLLACE</h6>
                 <h6>/Freelancer</h6>
@@ -36,24 +36,27 @@ export default {
 section{
   margin: 0 auto;  
   width:80%;
-  height: 600px;
+  height: 500px;
+  span{color:rgba(32,173,150,255);}
 }.box_text{
     display: flex;
     margin:0 auto;
-    width:49%;
-    height: 33%;
+    width:70%;
     text-align: initial;
 }.text_{
     font-size: 20px;
     padding: 40px;
 
 }.pic img{ 
-    margin-top:40px ;
+    margin-top:20px ;
     display: flex;
     border-radius: 50%;
     width: 150px;
 }img{
     padding: 20px;
     margin-top: 40px;
+}.name{
+    margin-top: 20px;
+    h6:nth-child(2){color:grey}
 }
 </style>
