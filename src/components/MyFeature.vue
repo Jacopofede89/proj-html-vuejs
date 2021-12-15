@@ -131,6 +131,7 @@ section{
     span{
         color: grey;
         font-size: 10px;
+        margin-right: 10px;
     }
     // border:2px solid blue;
 }button{

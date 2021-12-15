@@ -64,6 +64,7 @@ section{
    span{
        color:grey;
        font-size: 10px;
+       margin-right: 10px;
    }
 //    height: 500px;
    margin: 10px auto;

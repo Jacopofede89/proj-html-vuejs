@@ -85,7 +85,7 @@ export default {
          ],
     name: [
              {
-                 text:" .",
+                 text:"",
                  visible: true
              },
              {

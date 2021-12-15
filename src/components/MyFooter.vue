@@ -36,7 +36,7 @@
             </div>
         </div>
         <h5><i class="far fa-copyright"></i> 2020 Maxcoach. All Rights Reserved</h5>
-      
+      <div class="arrow"><i class="fas fa-long-arrow-alt-up"></i></div>
   </section>
 </template>
 
@@ -58,7 +58,7 @@ export default {
     section {
         margin: 0 auto;  
         width:100%;
-        height: 300px;
+        height: 350px;
         background-color: rgba(248,248,248,255);
         .main {
             width:80%;
@@ -95,6 +95,19 @@ export default {
             margin-top:80px;
             color: grey;
         }
+        .arrow{
+            width:50px;
+            height:50px;
+            border-radius: 50%;
+            background-color:rgba(32,173,150,255);
+            float: right;
+            color: white;
+            i{
+                font-size: 30px;
+                margin-top:10px;
+            }
+        }
+    
     }
     
 </style>

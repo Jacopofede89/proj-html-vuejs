@@ -6,7 +6,11 @@
       <li v-for="nav, i in navs" :key="i">{{nav.text}}<i class="fas fa-sort-down"></i></li>
       <li><i class="fas fa-shopping-cart"></i></li>
       <li><i class="far fa-user-circle"></i></li>
-      <li><input placeholder="search"><i class="fas fa-search"></i></li>
+      <li><div class="ricerca">
+        <input placeholder="search..">
+        <i id="i" class="fas fa-search"></i>
+        </div></li>
+      <!-- <li class="io"><input placeholder="search"><i id="i" class="fas fa-search"></i></li> -->
     </ul>
     <div class="aside">
       <i class="fas fa-ruler-combined"></i>
@@ -51,6 +55,7 @@ section{
 }button{
   color:white;
   border:none;
+  font-weight: bold;
   background-color:rgba(32,173,150,255);
   border-radius:3px;
   padding:5px 20px;
@@ -115,6 +120,19 @@ ul {
 li {
   display: inline-block;
   margin: 0 10px;
+  .ricerca{
+    width: 100px;
+    height: 25px;
+    background-color: white;
+    border-radius: 5px;
+  }input{
+    border:none;
+    width: 70px;
+  }
+  
+    #i{
+      color:rgba(32,173,150,255);
+    }
 }
 
 </style>

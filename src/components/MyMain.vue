@@ -90,6 +90,9 @@ section{
 }.name{
     font-size:10px;
     margin-top: 20px;
+    p:nth-child(2) {
+    color:grey;
+}
 }.session{
     display: flex;
     justify-content: center;
@@ -124,7 +127,7 @@ section{
     margin: auto;
     box-shadow: 10px 10px 10px 10px rgb(231, 231, 245);
     width:35%;
-    height:300px;
+    height:330px;
     text-align: initial;
     padding: 25px;
     img{
@@ -146,6 +149,7 @@ button{
   border-radius:3px;
   padding:5px 20px;
   margin-top:10px;
+  font-weight: bold;
 }.color{
     font-size: 30px;
     font-weight: bold;
