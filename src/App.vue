@@ -10,6 +10,7 @@
     :links="this.link"
     :names="this.name"
     :sites="this.site"
+    :contact="this.contact"
     />
   </div>
 </template>
@@ -84,8 +85,8 @@ export default {
          ],
     name: [
              {
-                 text:"",
-                 visible: false
+                 text:" .",
+                 visible: true
              },
              {
                  text: "Success story",
@@ -124,11 +125,11 @@ export default {
              },
              
              ],
-    // contact : {
-    //   address : "63 E. Studebaker Street Bolingbrook, IL 60440",
-    //   phone : "+1 (305) 547-9909 (9am - 5pm EST, Monday - Friday",
-    //   email : "support@maxcoach.com",
-    // }
+    contact : {
+      address : "63 E. Studebaker Street Bolingbrook, IL 60440",
+      phone : "+1 (305) 547-9909 (9am - 5pm EST, Monday - Friday",
+      email : "support@maxcoach.com",
+    }
     }
   }
 }

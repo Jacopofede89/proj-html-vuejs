@@ -86,7 +86,7 @@ export default {
 <style scoped lang="scss">
 section{
   margin: 150px auto;  
-  width:80%;
+  width:100%;
   height: 750px;
   background-color:rgba(245,247,250,255);
 }.text{
@@ -98,12 +98,14 @@ section{
         font-weight: bold;
     }span{
         color:rgba(32,173,150,255);
+        font-weight: normal;
     }
 
 }.box{
     display: flex;
     flex-wrap:wrap;
-    width: 100%;
+    margin:auto;
+    width: 80%;
     height:500px;
     // border:2px solid black;
 }.box_text{
@@ -122,6 +124,10 @@ section{
     width:60%;
     padding: 20px;
     h5:first-child{color:rgba(32,173,150,255)}
+    h5:hover{
+        color:rgba(32,173,150,255);
+        cursor: pointer;
+    }
     span{
         color: grey;
         font-size: 10px;

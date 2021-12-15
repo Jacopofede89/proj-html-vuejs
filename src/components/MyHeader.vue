@@ -2,12 +2,18 @@
 <section>
   <div class="nav">
     <ul>
-      <li><img class="logo" src="@/assets/dark-logo.png"></li>
+      <li><img class="logo" src="@/assets/light-logo.png"></li>
       <li v-for="nav, i in navs" :key="i">{{nav.text}}<i class="fas fa-sort-down"></i></li>
       <li><i class="fas fa-shopping-cart"></i></li>
       <li><i class="far fa-user-circle"></i></li>
       <li><input placeholder="search"><i class="fas fa-search"></i></li>
-    </ul>    
+    </ul>
+    <div class="aside">
+      <i class="fas fa-ruler-combined"></i>
+      <i class="far fa-life-ring"></i>
+      <i class="far fa-file-alt"></i>
+      <i class="fas fa-shopping-cart"></i>
+    </div>    
     <div class="text">
       <h1>Learn At Your Own Pace!</h1>
       <h6>Get teammed up with people of the same will.</h6>
@@ -50,11 +56,27 @@ section{
   padding:5px 20px;
   margin-top:10px;
 }.logo{
-  float: left;
-  width: 100px;
+  margin-right:150px ;
+  width: 120px;
+  color: white;
+}.aside{
+  margin-top:40px;
+  color:black;
+  background-color:white;
+  width: 20px;
+  height: 130px;
+  float: right;
+  i{
+    margin-bottom: 15px;
+  }
 }.text{
   margin-top:50px;
   color: white;
+  button:hover{
+    color:rgba(32,173,150,255);
+    background-color:white;
+    cursor: pointer;
+  }
 }.img{
   display: flex;
   margin-left:180px;
@@ -69,20 +91,26 @@ section{
 }.left{
   width: 20%;
   height: 300px;
+  position: relative;
+  top:-35px;
 }.middle{
   border:20px solid white;
   border-radius: 20px;
   height: 300px;
   position: relative;
+  top:-65px;
+  box-shadow: 5px 10px 8px rgb(220, 220, 247);
 }.right{
   width:10%;
-  margin-top:30px;
+  height: 100px;
   position: relative;
-  top:42px;
+  top:80px;
+  object-fit: cover;
+  object-position: top;
 }
 ul {
   list-style-type: none;
-  padding: 0;
+  padding:30px;
 }
 li {
   display: inline-block;

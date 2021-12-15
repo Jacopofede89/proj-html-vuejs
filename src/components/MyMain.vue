@@ -32,34 +32,34 @@
     <div class="box_text">
         <div class="box_text_pic">
             <h1>Graphic Design</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit,Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+            <p>Have a passion for graphics and arts? Show your talents with confidence and self- assertiveness.</p>
             <img src="@/assets/home-6-service-image-01.png">
         </div>
-        <div class="box_text_pic">
+        <div id="space" class="box_text_pic">
             <h1>Business Administration</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit,Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+            <p>Learners are encouraged to study the mechanism and structure of system administration.</p>
             <img src="@/assets/home-6-service-image-02.png">
         </div>
         <div class="box_text_pic">
             <img src="@/assets/home-6-service-image-03.png">
             <h1>Idea Discussion</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit,Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+            <p>Get teamed up with the specialists who work and teach coding for years at famous universities.</p>
         </div>
-        <div class="box_text_pic">
+        <div id="space" class="box_text_pic">
             <img src="@/assets/home-6-service-image-04.png">
             <h1>Web Development</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit,Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+            <p>Learn to start building a webpage from scratch. You decide your own pace, course and speed.</p>
         </div>
     </div>
     <div class="box_text">
         <div class="box_text_right">
             <h5>TOGHETER WE CAN CREATE</h5>
-            <div class="color">SERVICES WE <span>CAN PROVIDE</span> FOR MY CLIENTS</div>
+            <div class="color">SERVICES WE <span>CAN PROVIDE</span> FOR MY CLIENTS.</div>
             <ul>
-                <li><i class="fas fa-check"></i>Select & customize to your prefernces</li>
-                <li><i class="fas fa-check"></i>Change the tuttor and make arrangements</li>
-                <li><i class="fas fa-check"></i>Partecipate in events to join others</li>
-                <li><i class="fas fa-check"></i>Get the desired certificate delivered at house</li>
+                <li><i class="fas fa-check"></i> Select & customize to your prefernces</li>
+                <li><i class="fas fa-check"></i> Change the tuttor and make arrangements</li>
+                <li><i class="fas fa-check"></i> Partecipate in events to join others</li>
+                <li><i class="fas fa-check"></i> Get the desired certificate delivered at house</li>
             </ul>
             <button>Get started for free</button>
         </div>
@@ -83,7 +83,7 @@ section{
   margin: 0 auto;  
   width:80%;
 }.text{
-    margin-top: 200px;
+    margin-top: 300px;
     font-size: 25px;
     line-height: 15px;
     font-weight:bold;
@@ -112,16 +112,25 @@ section{
     margin: 0 auto;
     width:45%;
     height: 750px;
-    // border:2px solid black;
+    #space{
+        margin-top:50px ;
+    }
+    button:hover{
+    color:white;
+    background-color:rgba(48,48,96,255);
+    cursor: pointer;
+  }
 }.box_text_pic{
     margin: auto;
-    // border:2px solid red;
-    width:45%;
-    // height: 50%;
+    box-shadow: 10px 10px 10px 10px rgb(231, 231, 245);
+    width:35%;
+    height:300px;
     text-align: initial;
+    padding: 25px;
     img{
         margin-top:20px;
-        width: 90%;
+        width: 80%;
+        height: 50%;
     }
 }.box_text_right{
     margin-top:200px;
@@ -139,8 +148,10 @@ button{
   margin-top:10px;
 }.color{
     font-size: 30px;
+    font-weight: bold;
     span{
        color:rgba(32,173,150,255); 
+       font-weight: normal;
     }
 }
 ul {

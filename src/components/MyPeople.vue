@@ -37,7 +37,7 @@ section{
   margin: 0 auto;  
   width:80%;
   height: 500px;
-  span{color:rgba(32,173,150,255);}
+  span{color:rgba(32,173,150,255);font-weight: normal;}
 }.box_text{
     display: flex;
     margin:0 auto;

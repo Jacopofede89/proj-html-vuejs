@@ -6,9 +6,9 @@
                 <div class="address">
                     <ul>
                         <li class="title">Address</li>
-                        <li>63 E. Studebaker Street Bolingbrook, IL 60440</li>
-                        <li> +1 (305) 547-9909 (9am - 5pm EST, Monday - Friday</li>
-                        <li> support@maxcoach.com</li>
+                        <li>{{contact.address}}</li>
+                        <li>{{contact.phone}}</li>
+                        <li>{{contact.email}}</li>
                         <li class="social"><i class="fab fa-facebook-f social"></i><i class="fab fa-twitter social"></i><i class="fab fa-instagram social"></i><i class="fab fa-linkedin"></i></li>
                     </ul>
                 </div>
@@ -47,7 +47,7 @@ export default {
     links : Array,
     names : Array,
     sites : Array,
-    // contact: Object,
+    contact: Object,
   }
 }
 
@@ -57,13 +57,15 @@ export default {
 <style scoped lang="scss">
     section {
         margin: 0 auto;  
-        width:80%;
+        width:100%;
         height: 300px;
+        background-color: rgba(248,248,248,255);
         .main {
-            width:100%;
+            width:80%;
             margin: auto;
             display: flex;
             justify-content: space-evenly;
+            padding: 30px;
             .link{
                 float: left;
                 display: flex;
@@ -89,6 +91,9 @@ export default {
                 }
             }
             
+        }h5{
+            margin-top:80px;
+            color: grey;
         }
     }
     

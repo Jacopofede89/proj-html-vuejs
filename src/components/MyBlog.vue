@@ -15,15 +15,15 @@
         <div class="box_pic">
             <img src="@/assets/artist-blog-01-480x325.jpg">
             <h6>ARTIST</h6>
-            <h4>Brush Strokes Energize Trees in</h4>
-            <h4>Painting</h4>
+            <h4>Pocket-sized Notebooks Hold</h4>
+            <h4>Miniature Painting</h4>
             <span><i class="far fa-calendar"></i> May 15, 2020</span> <span><i class="far fa-eye"></i> 688 views </span>
         </div>
         <div class="box_pic">
             <img src="@/assets/artist-blog-02-480x325.jpg">
             <h6>ARTIST</h6>
-            <h4>Brush Strokes Energize Trees in</h4>
-            <h4>Painting</h4>
+            <h4>Connection Between Self-</h4>
+            <h4>Portaits and Identify</h4>
             <span><i class="far fa-calendar"></i> May 15, 2020</span> <span><i class="far fa-eye"></i> 688 views </span>
         </div>
     </div>
@@ -39,21 +39,34 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
 section{
-  margin: 0 auto;  
-  width:80%;
-  height: 600px;
+  margin: auto;  
+  margin-bottom: 50px;
+  width:100%;
+  height: 550px;
   background-color:rgba(245,247,250,255);
+  h6{color: grey;}
+  .text{
+      padding: 50px;
+      span{
+          color:rgba(32,173,150,255);
+          font-weight: normal;
+      }
+  }
 }.box{
+    margin:auto;
     display: flex;
-    width: 100%;
-    height:500px;
+    width: 80%;
+    // height:500px;
     text-align: left;
-    border:2px solid black;
 }.box_pic{
-   border:2px solid red; 
-   width: 33%;
-   height: 500px;
-   margin: 10px;
+   width: 25%;
+   line-height: 30px;
+   span{
+       color:grey;
+       font-size: 10px;
+   }
+//    height: 500px;
+   margin: 10px auto;
 }img{
     width: 100%;
 }
